@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Navbar, .Footer{
+  padding: 5px;
+  background-color: #885252;
+  font-size: xx-large;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.Footer{
+  margin-top: 10px;
+ 
+}
+
+.search{
+  margin-top: 10px;
+  padding: 20px;
+  width: 100%;
+  height: 20 px;
+  background-color: #e4adad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+input{
+  border: none;
+  width: 30%;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+
+input:focus{
+  outline: #0375f6 solid 2px;
+  
+}
